@@ -11,18 +11,18 @@ namespace tallerdXCsSharp
         static void Main(string[] args)
         {
             //escribir mensaje
-            Console.WriteLine('bienbenido as csshar');
+            Console.WriteLine("bienbenido as csshar");
 
                 //--Definir Variables--
                 int a, b, producto;
 
             //--Entrada de datos--
-            Console.WriteLine('ingrese primer numero');
+            Console.WriteLine("ingrese primer numero");
             //Guardar valor de la consola
             a= int.Parse(Console.ReadLine());
             //a= int.Tryparse(Console.ReadLine()); //Boolean True o False
 
-            Console.WriteLine('ingrese segundo ');
+            Console.WriteLine("ingrese segundo ");
             //Guardar valor de la consola
             b = Convert.ToInt32(Console.ReadLine());
             //b=int.Tryparse(Console.ReadLine()); //Boolean True o False
